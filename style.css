@@ -1,0 +1,47 @@
+    body {
+        background-color: beige;
+    }
+    
+    h1 {
+        color: greenyellow;
+        background-color: cornsilk;
+        font-family: Supermercado One;
+        text-align: center;
+    }
+    
+    #show_sketch {
+        float: right;
+    }
+    
+    canvas {
+        border: darkolivegreen;
+        border-radius: 5px;
+        border-width: 12px;
+        animation-name: glowing;
+        animation-duration: 4s;
+    }
+    
+    @keyframes glowing {
+        from {
+            box-shadow: 1px 1px 40px blue;
+        }
+        to {
+            box-shadow: 1px 1px 48px crimson;
+        }
+    }
+    
+    p {
+        font-family: Supermercado One;
+    }
+    
+    #footer {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        background-color: cadetblue;
+        width: 100%;
+        line-height: 25px;
+        height: 45px;
+        font-size: 23px;
+        font-family: 'Dela Gothic One', cursive;
+    }
